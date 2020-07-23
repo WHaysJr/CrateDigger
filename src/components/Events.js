@@ -10,10 +10,7 @@ const Events = () => {
       <h4>Upcoming Events</h4>
       <br />
       <br />
-      <p>Opening for Your Mom</p>
-      <p>Oct 29, 2020</p>
-      <p>Your Mom's House, Los Angeles, CA</p>
-      <p>Flyer graphic?</p>
+      <p>No events in 2020</p>
 
       <br />
       <br />
