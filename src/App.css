@@ -16,8 +16,8 @@
   /* padding-right: 50px; */
   width: 88%;
   /* padding-top: 15px; */
-  font-size: large;
-  font-weight: bold;
+  font-size: small;
+
   position: fixed;
   top: 0;
   background-color: black;
@@ -96,4 +96,41 @@ a:hover {
 a:active {
   color: white;
   text-decoration: none;
+}
+
+/* This applies from 600px onwards */
+@media (min-width: 770px) {
+  .wrapper {
+    margin: auto;
+  }
+  /* menu / tabs menu */
+  .menu {
+    display: grid;
+  }
+  .left {
+    text-align: center;
+    grid-column-start: 1;
+  }
+  .right {
+    padding-top: 30px;
+    font-size: large;
+    font-weight: bold;
+    grid-column-start: 2;
+  }
+  .base-tab {
+    display: inline-block;
+  }
+
+  /* menu */
+  .menu {
+    /* padding-right: 50px; */
+    width: 88%;
+    /* padding-top: 15px; */
+    font-size: large;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 1;
+  }
 }
