@@ -37,7 +37,7 @@ const Menu = () => {
           offset={-150}
           duration={170}
         >
-          Discography
+          Albums
         </Link>
 
         <ImgComp2 src={cd_dm_logo}></ImgComp2>

@@ -4,7 +4,7 @@ const Discography = () => {
   return (
     <div className="discography" id="discography">
       <div className="title">
-        <h3>Discography</h3>
+        <h3>Albums</h3>
       </div>
       <h4>Episode 1</h4>
       <p>April, 2019</p>
