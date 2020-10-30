@@ -7,6 +7,7 @@ import Discography from "./components/Discography";
 import Audio from "./components/Audio";
 import Visual from "./components/Visual";
 import About from "./components/About";
+import MailList from "./components/MailList";
 // import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Audio />
           <Discography />
           <Contact />
+          <MailList />
           {/* <Audio path="/audio" /> */}
         </div>
       </div>
